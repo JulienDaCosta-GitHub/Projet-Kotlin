@@ -15,18 +15,18 @@ fun jeuplusoumoins(arg1: String) {
 
     if (scan != null) {
         return if (value < arg1){
-            println("Votre nombre est trop petit")
+            println("Votre nombre est trop petit.")
             jeuplusoumoins(arg1)
         }
         else if (value > arg1){
-            println("Votre nombre est trop grand")
+            println("Votre nombre est trop grand.")
             jeuplusoumoins(arg1)
         }
         else if (value == arg1){
             println("Félicitations !")
         }
         else {
-            println("Game Over")
+            println("Game Over !")
         }
     }
 }
